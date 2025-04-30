@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6807e0de2511406cb76a2b52"
+  },
+  "name": "Patricia Toledo",
+  "address": {
+    "street_and_number": "Lambre 6",
+    "level": "entresuelo",
+    "door": 3,
+    "city": "Barcelona",
+    "postalCode": "08020",
+    "country": "Spain"
+  },
+  "telephone": 678921235,
+  "email": "email@email.com",
+  "register_date": "2025-04-22",
+  "sales": {
+    "glasses": {
+      "Label": "Timberland",
+      "Prescription": {
+        "Left": 0,
+        "Right": 0
+      },
+      "type": "Acetate",
+      "frameColor": "Yellow",
+      "lensColor": "Clear",
+      "price": 30,
+      "provider": {
+        "name": "Picolin",
+        "address": {
+          "street and number": "Lamargura 8",
+          "level": "Street",
+          "door": "Local 3",
+          "city": "Barcelona",
+          "postalCode": "08018",
+          "country": "Spain"
+        },
+        "telephone": "933966555",
+        "fax": "933966555",
+        "NIF": "P9876245Q"
+      }
+    },
+    "employee": "Jordi Lopez",
+    "date": "2025-04-22T18:25:43.511Z"
+  },
+  "client_recommendation": {
+    "client_name": "Pepe",
+    "telephone": 678921235
+  }
+}]

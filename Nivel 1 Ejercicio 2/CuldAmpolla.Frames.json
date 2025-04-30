@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "6807dd672511406cb76a2b4b"
+  },
+  "label": "RayBan",
+  "prescription": {
+    "left": 1.5,
+    "right": 1.25
+  },
+  "type": "Metal",
+  "frameColor": "Black",
+  "lensColor": "Clear",
+  "price": 60,
+  "provider": {
+    "name": "Luxxotica",
+    "address": {
+      "street_and_number": "Lamargura 8",
+      "level": "Street",
+      "door": "Local 3",
+      "city": "Barcelona",
+      "postalCode": "08018",
+      "country": "Spain"
+    },
+    "telephone": "933966555",
+    "fax": "933966555",
+    "nif": "P9876245Q"
+  },
+  "sales": {
+    "date": "2025-04-22T18:25:43.511Z",
+    "employee": "Pancracio Linarez",
+    "client": {
+      "name": "Oliverio Girondo",
+      "address": {
+        "street_and_number": "Santiago 36",
+        "floor": 1,
+        "door": 1,
+        "city": "Badalona",
+        "postalCode": "08918",
+        "country": "Spain"
+      },
+      "telephone": "654321987",
+      "email": "string@protonmail.com",
+      "registerDate": "2025-04-22",
+      "recommendedBy": null
+    }
+  }
+}]

@@ -1,0 +1,79 @@
+[{
+  "_id": "ObjectId",
+  "orders": [
+    {
+      "order_id": "ObjectId",
+      "date_time": "2025-04-29T10:00:00Z",
+      "type": "delivery",
+      "products": [
+        {
+          "product_id": "ObjectId",
+          "name": "Pizza Jardinera",
+          "description": "Pizza con vegetales de teporada primavera",
+          "image": "url-imagen.jpg",
+          "price": {
+            "$numberDecimal": "8.99"
+          },
+          "quantity": 2,
+          "category": "Pizza"
+        },
+        {
+          "product_id": "ObjectId",
+          "name": "Coca-Cola",
+          "description": "500ml cola soda.",
+          "image": "url-image.png",
+          "price": 1.99,
+          "quantity": 1,
+          "category": "Bebida"
+        }
+      ],
+      "total_price": {
+        "$numberDecimal": "19.97"
+      },
+      "note": "Deliver before 12:00",
+      "client": {
+        "name": "Lorena",
+        "address": "Calle lamargura 333",
+        "locality": "Barcelona",
+        "province": "Catalunya",
+        "telephone": "600111456",
+        "lastname": "Castillo",
+        "postal_code": "08018"
+      },
+      "delivery_person": {
+        "employee_id": "ObjectId",
+        "name": "Mary",
+        "lastName": "Gómez",
+        "NIF": "12345678Z",
+        "telephone": "600987654",
+        "role": "delivery_person"
+      },
+      "delivery_date_Time": "2025-04-29T11:00:00Z"
+    }
+  ],
+  "restaurant": {
+    "restaurant_id": "ObjectId",
+    "address": "456 Avenida la Catalana",
+    "locality": "Barcelona",
+    "province": "Catalunya",
+    "employees": [
+      {
+        "employee_id": "ObjectId",
+        "name": "Alirio",
+        "surnames": "Marquez",
+        "NIF": "87654321X",
+        "telephone": "600765432",
+        "role": "cook"
+      },
+      {
+        "employee_id": "ObjectId",
+        "name": "Mary",
+        "surnames": "Gómez",
+        "NIF": "12345678Z",
+        "telephone": "600987654",
+        "role": "delivery_person"
+      }
+    ],
+    "postal_code": "08011"
+  }
+}]
