@@ -30,6 +30,10 @@ Moon Modeler
 Clona este repositorio:
 
 git clone https://github.com/rioacosta/S2.03.-Estructura-de-dades---MongoDB
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 cd S2.03.-Estructura-de-dades---MongoDB
 
 
